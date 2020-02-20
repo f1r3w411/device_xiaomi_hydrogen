@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ion_hydrogen.mk
+    $(LOCAL_DIR)/xtended_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    ion_hydrogen-user \
-    ion_hydrogen-userdebug \
-    ion_hydrogen-eng
+    xtended_hydrogen-user \
+    xtended_hydrogen-userdebug \
+    xtended_hydrogen-eng
