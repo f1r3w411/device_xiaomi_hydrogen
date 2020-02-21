@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_hydrogen.mk
+    $(LOCAL_DIR)/aosp_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_hydrogen-user \
-    du_hydrogen-userdebug \
-    du_hydrogen-eng
+    aosp_hydrogen-user \
+    aosp_hydrogen-userdebug \
+    aosp_hydrogen-eng
