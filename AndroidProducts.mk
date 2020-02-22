@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_hydrogen.mk
+    $(LOCAL_DIR)/aosp_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_hydrogen-user \
-    derp_hydrogen-userdebug \
-    derp_hydrogen-eng
+    aosp_hydrogen-user \
+    aosp_hydrogen-userdebug \
+    aosp_hydrogen-eng
