@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_hydrogen.mk
+    $(LOCAL_DIR)/bliss_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_hydrogen-user \
-    aosp_hydrogen-userdebug \
-    aosp_hydrogen-eng
+    bliss_hydrogen-user \
+    bliss_hydrogen-userdebug \
+    bliss_hydrogen-eng
