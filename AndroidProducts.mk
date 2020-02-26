@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_hydrogen.mk
+    $(LOCAL_DIR)/superior_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_hydrogen-user \
-    derp_hydrogen-userdebug \
-    derp_hydrogen-eng
+    superior_hydrogen-user \
+    superior_hydrogen-userdebug \
+    superior_hydrogen-eng
