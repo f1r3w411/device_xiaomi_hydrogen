@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_hydrogen.mk
+    $(LOCAL_DIR)/syberia_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_hydrogen-user \
-    derp_hydrogen-userdebug \
-    derp_hydrogen-eng
+    syberia_hydrogen-user \
+    syberia_hydrogen-userdebug \
+    syberia_hydrogen-eng
