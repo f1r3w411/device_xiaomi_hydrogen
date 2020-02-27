@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_hydrogen.mk
+    $(LOCAL_DIR)/pixys_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_hydrogen-user \
-    derp_hydrogen-userdebug \
-    derp_hydrogen-eng
+    pixys_hydrogen-user \
+    pixys_hydrogen-userdebug \
+    pixys_hydrogen-eng
