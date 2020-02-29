@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_hydrogen.mk
+    $(LOCAL_DIR)/lineage_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_hydrogen-user \
-    derp_hydrogen-userdebug \
-    derp_hydrogen-eng
+    lineage_hydrogen-user \
+    lineage_hydrogen-userdebug \
+    lineage_hydrogen-eng
