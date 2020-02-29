@@ -28,13 +28,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/lotus/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := hydrogen
-PRODUCT_NAME := derp_hydrogen
+PRODUCT_NAME := lotus_hydrogen
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
