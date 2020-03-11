@@ -16,9 +16,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_hydrogen.mk
+    $(LOCAL_DIR)/arrow_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_hydrogen-user \
-    bliss_hydrogen-userdebug \
-    bliss_hydrogen-eng
+    arrow_hydrogen-userdebug \
+    arrow_hydrogen-eng
