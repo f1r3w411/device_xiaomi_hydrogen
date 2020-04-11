@@ -15,12 +15,7 @@
 # limitations under the License.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit from hydrogen device
-$(call inherit-product, device/xiaomi/hydrogen/device.mk)
+$(call inherit-product, device/xiaomi/hydrogen/full_hydrogen.mk)
 
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
@@ -43,6 +38,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Use the latest approved GMS identifiers unless running a signed build
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="hydrogen-user 6.0.1 MMB29M V8.2.3.0.MBCCNDL release-keys"
+    PRIVATE_BUILD_DESC="hydrogen-user 7.0 NRD90M V10.2.2.0.NBCMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/hydrogen/hydrogen:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/hydrogen/hydrogen:7.0/NRD90M/V10.2.2.0.NBCMIXM:user/release-keys
