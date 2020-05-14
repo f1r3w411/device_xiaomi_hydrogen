@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_hydrogen.mk \
+    $(LOCAL_DIR)/rebellion_hydrogen.mk \
     $(LOCAL_DIR)/full_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_hydrogen-user \
-    xtended_hydrogen-userdebug \
-    xtended_hydrogen-eng
+    rebellion_hydrogen-user \
+    rebellion_hydrogen-userdebug \
+    rebellion_hydrogen-eng
