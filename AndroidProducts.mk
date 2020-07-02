@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_hydrogen.mk \
+    $(LOCAL_DIR)/aosp_hydrogen.mk \
     $(LOCAL_DIR)/full_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_hydrogen-user \
-    xtended_hydrogen-userdebug \
-    xtended_hydrogen-eng
+    aosp_hydrogen-user \
+    aosp_hydrogen-userdebug \
+    aosp_hydrogen-eng
