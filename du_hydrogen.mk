@@ -41,3 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hydrogen-user 7.0 NRD90M V10.2.2.0.NBCMIXM release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/hydrogen/hydrogen:7.0/NRD90M/V10.2.2.0.NBCMIXM:user/release-keys
+
+#Face Unlock
+$(call inherit-product, external/motorola/faceunlock/config.mk)
