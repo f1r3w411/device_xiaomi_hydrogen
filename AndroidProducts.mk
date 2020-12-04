@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_hydrogen.mk \
+    $(LOCAL_DIR)/lineage_hydrogen.mk \
     $(LOCAL_DIR)/full_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_hydrogen-user \
-    bliss_hydrogen-userdebug \
-    bliss_hydrogen-eng
+    lineage_hydrogen-user \
+    lineage_hydrogen-userdebug \
+    lineage_hydrogen-eng
