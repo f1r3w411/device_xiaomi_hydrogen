@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hydrogen.mk \
+    $(LOCAL_DIR)/aicp_hydrogen.mk \
     $(LOCAL_DIR)/full_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_hydrogen-user \
-    lineage_hydrogen-userdebug \
-    lineage_hydrogen-eng
+    aicp_hydrogen-user \
+    aicp_hydrogen-userdebug \
+    aicp_hydrogen-eng
