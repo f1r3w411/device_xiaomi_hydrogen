@@ -16,10 +16,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_hydrogen.mk \
+    $(LOCAL_DIR)/arrow_hydrogen.mk \
     $(LOCAL_DIR)/full_hydrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_hydrogen-user \
-    rr_hydrogen-userdebug \
-    rr_hydrogen-eng
+    arrow_hydrogen-user \
+    arrow_hydrogen-userdebug \
+    arrow_hydrogen-eng
