@@ -29,7 +29,7 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := hydrogen
-PRODUCT_NAME := nad__hydrogen
+PRODUCT_NAME := nad_hydrogen
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
